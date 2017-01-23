@@ -1,3 +1,11 @@
+<!--1.浮动效果  -->
+<!--2.一列布局  -->
+<!--3.自适应二列布局  -->
+<!--4.固定宽度二列布局  -->
+<!--5.三列布局-三列按比例  -->
+<!--6.三列布局-两列固定,一列自适应  -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,11 +13,82 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <style media="screen">
+    *{margin:0;padding:0;}
+    body{color:red;font-weight: 800;font-size:50px;border:25px solid yellow;}
+
+
+  </style>
 </head>
 <body>
-  <div>浮动</div>
-  <div>这是怎么做到的?</div>
+  <div>浮动效果</div>
   <img src="../../images/fe/floatEffect.jpg">
   <img src="../../images/fe/floatEffect2.jpg">
+  <br>
+
+  <style>
+  /*一列布局*/
+ .top-一列布局{height: 100px;background-color: blue;}
+ .main-一列布局{width: 800px;height: 300px;background-color: green;margin: 0 auto;}
+ .foot-一列布局{width: 800px;height: 100px;background-color: red;margin: 0 auto;}
+</style>
+  <div>一列布局
+    <div class="top-一列布局"></div>
+    <div class="main-一列布局"></div>
+    <div class="foot-一列布局"></div>
+  </div>
+
+  <style>
+  /*二列布局*/
+  #自适应二列布局{overflow: hidden;clear:both;}
+  .left-两列布局{width: 20%;height: 500px;float: left;background-color: #ccc;}
+  .right-两列布局{width: 80%;;height: 500px;float: right;background-color: skyblue;}
+  </style>
+  <div id="自适应二列布局"><div>自适应二列布局</div>
+    <div class="left-两列布局"></div>
+    <div class="right-两列布局"></div>
+  </div>
+
+
+  <style>
+  /*固定宽度二列布局*/
+  #固定宽度二列布局{width: 800px;margin: 0 auto;overflow: hidden;}
+  .left-固定宽度两列布局{width: 601px;float: left;background-color: green;height: 500px;}
+  .right-固定宽度两列布局{width: 199px;float: left;background-color: red;height: 500px;}
+
+  </style>
+  <div id="固定宽度二列布局"><div>固定宽度二列布局</div>
+    <div class="left-固定宽度两列布局"></div>
+    <div class="right-固定宽度两列布局"></div>
+  </div>
+
+
+  <style>
+  /*三列比例布局*/
+  #三列布局{overflow: hidden;}
+  .left-三列布局{width: 33.33%;height: 500px;float: left;background-color: red;}
+  .middle-三列布局{width: 33.33%;height: 500px;float: left;background-color: green;}
+  .right-三列布局{width: 33.33%;height: 500px;float: left;background-color: yellow;}
+  </style>
+  <div id="三列布局"><div>三列布局</div>
+    <div class="left-三列布局"></div>
+    <div class="middle-三列布局"></div>
+    <div class="right-三列布局"></div>
+  </div>
+
+
+  <style>
+  /*三列布局-一列自适应*/
+  #三列布局一列自适应{background-color: gray;overflow: hidden;position:relative;width: 100%;border:1px solid black}
+  .left-三列布局一列自适应{width: 200px;height: 500px;position: absolute;top:0;left: 0;background-color: yellow;}
+  .middle-三列布局一列自适应{margin: 0 311px 0 211px;height: 500px;background-color: purple;}
+  .right-三列布局一列自适应{width: 300px;height: 500px;position: absolute;top: 0;right: 0;background-color: green;}
+  </style>
+  <div>三列布局一列自适应</div>
+  <div id="三列布局一列自适应">
+    <div class="left-三列布局一列自适应"></div>
+    <div class="middle-三列布局一列自适应">三列布局435345一列自适应三列布局一67578658798列自98098-9应三--=90-列布局90一列自适应三列布局一列自适应三列布局一列自适应三列布局一列自适应三列布局一列自适应三列布局一列自适应三列布局一列自适应三列布局一列自适应三列布局一列自适应三列布局一列自适应三列布局一列自适应三列布局一列自适应三列布局一列自适应三列布局一列自适应三列布局一列自适应</div>
+    <div class="right-三列布局一列自适应"></div>
+  </div>
 </body>
 </html>
