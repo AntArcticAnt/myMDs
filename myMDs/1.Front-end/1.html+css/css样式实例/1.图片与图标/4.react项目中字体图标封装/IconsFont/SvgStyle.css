@@ -1,0 +1,316 @@
+/*文字大小*/
+/*文字颜色*/
+/*连接文字*/
+/*按钮颜色*/
+/*按钮的角度*/
+/*单选框 多选框 颜色*/
+/*border边框颜色*/
+/*背景颜色*/
+/*表格*/
+/*tabs标签*/
+.icons {
+  fill: #1ab495;
+  border: 1px solid red;
+  padding: 0px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+.icons:hover {
+  fill: #18a786;
+}
+.down-blue {
+  fill: #5fafe4;
+  padding: 0px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+}
+.down-blue:hover {
+  fill: #2e87c2;
+}
+.tibleyd {
+  fill: #1ca1dc;
+  border: 1px solid red;
+  padding: 0px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+.tibleyd:hover {
+  fill: #0b81b5;
+}
+.table-icon {
+  fill: #1ab495;
+  padding: 0px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+.table-icon :hover {
+  fill: #18a786;
+}
+.icon-zhiding {
+  fill: #1ab495;
+  padding: 0px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  width: 18px!important;
+  height: 20px!important;
+  cursor: pointer;
+}
+.icon-zhiding :hover {
+  fill: #18a786;
+}
+.icon-zhidi {
+  fill: #1ab495;
+  padding: 0px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  width: 18px!important;
+  height: 20px!important;
+  margin: 0 0 0 -2px;
+  cursor: pointer;
+}
+.icon-zhidi :hover {
+  fill: #18a786;
+}
+.icon-shangyi {
+  fill: #1ab495;
+  padding: 0px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  width: 18px!important;
+  height: 20px!important;
+  margin: 0px -2px;
+  cursor: pointer;
+}
+.icon-shangyi :hover {
+  fill: #18a786;
+}
+.icon-xiayi {
+  fill: #1ab495;
+  padding: 0px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  width: 18px!important;
+  height: 20px!important;
+  margin-top: 2px;
+  cursor: pointer;
+}
+.icon-xiayi :hover {
+  fill: #18a786;
+}
+.youjiantou {
+  fill: #686a6c;
+  padding: 0px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  width: 12px!important;
+  height: 12px!important;
+  margin-top: -17px;
+}
+.youjiantou :hover {
+  fill: #282828;
+}
+.iconListSelected {
+  cursor: pointer;
+  fill: #D2D2D2;
+  padding: 0px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  width: 26px!important;
+  height: 26px!important;
+  margin-left: 12px;
+  border: 2px solid #D2D2D2;
+}
+.iconListSelected :hover {
+  fill: #D2D2D2;
+}
+.iconList {
+  cursor: pointer;
+  fill: #EEEEEE;
+  padding: 2px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  width: 26px!important;
+  height: 26px!important;
+  margin-left: 12px;
+  border: 2px solid #EEEEEE;
+}
+.iconList :hover {
+  fill: #D2D2D2;
+}
+.iconWindow {
+  cursor: pointer;
+  fill: #EEEEEE;
+  padding: 2px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  width: 26px!important;
+  height: 26px!important;
+  margin-left: 12px;
+  border: 1px solid #ddd;
+}
+.iconWindow :hover {
+  fill: #D2D2D2;
+}
+.iconWindowSelect {
+  cursor: pointer;
+  fill: #D2D2D2;
+  padding: 0px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  width: 26px!important;
+  height: 26px!important;
+  margin-left: 12px;
+  border: 2px solid #D2D2D2;
+}
+.iconWindowSelect :hover {
+  fill: #D2D2D2;
+}
+.iconYes {
+  fill: #FFFFFF;
+  padding: 0px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  width: 25px!important;
+  height: 25px!important;
+}
+.iconNo {
+  fill: #FFFFFF;
+  padding: 0px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  width: 23px!important;
+  height: 23px!important;
+}
+.iconXx {
+  fill: #8d9091;
+  padding: 0px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  width: 12px!important;
+  height: 12px!important;
+  margin-top: -4px;
+  cursor: pointer;
+}
+.iconXx :hover {
+  fill: #7a7a7a;
+}
+.iconSet {
+  fill: #8d9091;
+  padding: 0px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  width: 14px!important;
+  height: 14px!important;
+  margin-top: 2px;
+  cursor: pointer;
+  float: right;
+}
+.iconSet :hover {
+  fill: #7a7a7a;
+}
+.iconJ {
+  fill: #787878;
+  padding: 0px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  width: 16px!important;
+  height: 16px!important;
+  cursor: pointer;
+}
+.iconJ :hover {
+  fill: #7a7a7a;
+}
+.plusSmall {
+  fill: #d2d2d2;
+  padding: 0px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  width: 25px!important;
+  height: 25px!important;
+  cursor: pointer;
+}
+.plusSmall :hover {
+  fill: #676a6c;
+}
+.plusBig {
+  fill: #1ab495;
+  padding: 0px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  width: 25px!important;
+  height: 25px!important;
+  cursor: pointer;
+}
+.plusBig :hover {
+  fill: #18a786;
+}
+.plusBigRed {
+  fill: #de2b2b;
+  padding: 0px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  width: 26px!important;
+  height: 26px!important;
+  cursor: pointer;
+  position: absolute;
+  left: 28px;
+  top: -1px;
+}
+.plusBigRed :hover {
+  fill: #d21616;
+}
+.table-edit {
+  fill: #d4d4d4;
+  padding: 0px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  width: 20px!important;
+  height: 20px!important;
+  margin-top: -5px;
+  cursor: pointer;
+}
+.table-edit :hover {
+  fill: #d2d2d2;
+}
+.rightarrow {
+  fill: #676a6c;
+  padding: 0px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  width: 12px!important;
+  height: 12px!important;
+  cursor: pointer;
+  margin-top: -28px;
+}
+.rightarrow :hover {
+  fill: #d2d2d2;
+}
