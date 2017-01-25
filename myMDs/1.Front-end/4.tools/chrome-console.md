@@ -22,6 +22,7 @@
 6. [为何浏览器控制台的JavaScript引擎性能这么差？](https://www.zhihu.com/question/29352114)
 7. [Chrome DevTools – 测试响应和设备特定可视窗口](http://www.css88.com/archives/6898)
 8. [使用Chrome-DevTools并行调试node-js](http://xishiyi7.github.io/2016/10/14/%E4%BD%BF%E7%94%A8Chrome-DevTools%E5%B9%B6%E8%A1%8C%E8%B0%83%E8%AF%95node-js/)
+---------------------
 
 # 基本功能:
 * 打开 F12 --dock side控制显示方式(显示器下,右,外)
