@@ -1,3 +1,28 @@
+### 初级
+0. [修改主题颜色](http://mikeking.io/devtools-author/)
+0. [Chrome地址栏功能](https://github.com/ChenChenJoke/JokerChrome)
+1. [Chrome控制台实用指南](https://gold.xitu.io/post/57ce7f36c4c9710054ad2cac)
+2. [Chrome开发者工具不完全指南(1-6)](http://www.cnblogs.com/constantince/category/712675.html)
+8. [Chrome 开发者工具原版手册-翻墙](https://developers.google.com/web/tools/chrome-devtools/settings)
+9. [Chrome 开发者工具中文手册](http://www.css88.com/doc/chrome-devtools/)
+
+
+
+### 中级
+
+3. [Chrome DevTools 之 Network，网络加载分析利器](http://www.jianshu.com/p/471950517b07)
+4. [Chrome DevTools 之 Timeline，快捷性能优化工具](http://www.jianshu.com/p/b8cdcd9bfad8)
+5. [Chrome Devtools Tips & Tricks-中](https://github.com/xitu/gold-miner/blob/master/TODO/chrome-devtools.md)
+10. [英-技术博客](https://umaar.com/dev-tips/)
+11. [中-技术博客](http://www.css88.com/archives/category/develop-message)
+
+### 高级
+5. [用 Chrome 开发者工具分析 javascript 的内存回收（GC）](http://mp.weixin.qq.com/s/zDFl58bxseZGsUvS3PjP0w)
+
+6. [为何浏览器控制台的JavaScript引擎性能这么差？](https://www.zhihu.com/question/29352114)
+7. [Chrome DevTools – 测试响应和设备特定可视窗口](http://www.css88.com/archives/6898)
+8. [使用Chrome-DevTools并行调试node-js](http://xishiyi7.github.io/2016/10/14/%E4%BD%BF%E7%94%A8Chrome-DevTools%E5%B9%B6%E8%A1%8C%E8%B0%83%E8%AF%95node-js/)
+
 # 基本功能:
 * 打开 F12 --dock side控制显示方式(显示器下,右,外)
 * Console控制台:JS命令行操作,显示JS错误信息,提示信息,日志信息,写入命令
