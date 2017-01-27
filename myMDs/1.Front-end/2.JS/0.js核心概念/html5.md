@@ -37,7 +37,7 @@
         * 全屏 API
         * 指针锁定 API
         * 在线和离线事件
-    4. 使用viewport固定真个页面宽度
+    4. 使用viewport固定整个页面宽度
         * `<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">`;
     5. 移动端性能陷阱和硬件加速
         * PC时代:把script标签放在body后面防止阻塞
