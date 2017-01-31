@@ -44,3 +44,27 @@ class App extends Component {
 }
 
 ReactDOM.render(<App />, document.getElementById('root'));
+
+
+
+const DeleteAccount = () =>({
+  type:'div',
+  props:{
+    children:[{
+      type:'p',
+      props:{
+        children:"r  u sure?",
+      },
+    },{
+      type: DangerButton,
+      props:{
+        children:'Confirm',
+      },
+      type:Button,
+      props:{
+        color:'blue';
+        children:'Cancel',
+      },
+    }]
+   }
+ });
